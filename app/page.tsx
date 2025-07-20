@@ -21,12 +21,12 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="text-center md:text-left mb-4 md:mb-0">
               <p className="text-zinc-400">
-                © 2025 Subash Kannan. Crafted with precision and passion.
+                © 2025 Subash Kannan. 
               </p>
             </div>
             <div className="text-center md:text-right">
               <p className="text-zinc-500 text-sm">
-                Built with Next.js, Tailwind CSS & Framer Motion
+              
               </p>
             </div>
           </div>

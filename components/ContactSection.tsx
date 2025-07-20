@@ -47,7 +47,7 @@ const ContactSection = () => {
     {
       icon: MapPin,
       label: "Location",
-      value: "Chennai, India",
+      value: "Coimbatore, India",
       href: "#",
       gradient: "from-purple-500 to-pink-500"
     }
@@ -118,20 +118,14 @@ const ContactSection = () => {
             >
               <h4 className="text-lg font-semibold text-white mb-4">Follow Me</h4>
               <div className="flex gap-4">
-                <motion.a
-                  href="#"
+                <motion.a target='_blank'
+                  href="https://www.linkedin.com/in/subash-kannan-217520339 "
                   className="p-3 glass rounded-xl hover:bg-white/10 transition-all duration-300"
                   whileHover={{ scale: 1.1, y: -2 }}
                 >
                   <Linkedin className="w-6 h-6 text-blue-400" />
                 </motion.a>
-                <motion.a
-                  href="#"
-                  className="p-3 glass rounded-xl hover:bg-white/10 transition-all duration-300"
-                  whileHover={{ scale: 1.1, y: -2 }}
-                >
-                  <Github className="w-6 h-6 text-zinc-400" />
-                </motion.a>
+               
               </div>
             </motion.div>
           </motion.div>
